@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(216deg, 12%, 8%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+body .main,
+body .thankYou {
+  background-color: hsl(213deg, 19%, 18%);
+  width: 90%;
+  max-width: 350px;
+  border-radius: 20px;
+  padding: 2rem;
+}
+body .main img {
+  padding: 0.8rem;
+  background-color: hsl(213deg, 19%, 23%);
+  border-radius: 50%;
+}
+body .main h1 {
+  margin: 0.5rem 0;
+}
+body .main p {
+  color: hsl(217deg, 12%, 63%);
+}
+body .main ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  list-style: none;
+}
+body .main ul button {
+  border: 0;
+  border-radius: 50%;
+  padding: 1rem 1.3rem;
+  background-color: hsl(213deg, 19%, 23%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+body .main ul button:hover {
+  background-color: hsl(25deg, 97%, 53%);
+  color: #fff;
+}
+body .main ul button:focus {
+  color: hsl(25deg, 97%, 53%);
+  background-color: #fff;
+}
+body .main button {
+  margin: 0.5rem 0;
+  width: 100%;
+  background-color: hsl(25deg, 97%, 53%);
+  border: 0;
+  padding: 0.8rem 0;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+body .main button:hover {
+  background-color: #fff;
+  color: hsl(25deg, 97%, 53%);
+}
+body .thankYou {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body .thankYou img {
+  margin: 0.5rem 0;
+}
+body .thankYou h1 {
+  background-color: hsl(213deg, 19%, 23%);
+  font-size: 0.9rem;
+  color: hsl(25deg, 97%, 53%);
+  padding: 0.5rem 0.8rem;
+  padding-top: 0.7rem;
+  border-radius: 1rem;
+  margin: 2rem 0;
+}
+body .thankYou p {
+  color: hsl(217deg, 12%, 63%);
+}
+body .thankYou h2 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+body .hidden {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */
